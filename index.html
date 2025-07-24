@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Flower</title>
+
+    <!-- icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Navbar section is start -->
+
+    <header class="bg-[#f5f7ff] shadow-sm">
+      <div
+        class="container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="assets/logo.png" alt="Logo" class="h-16" />
+        </div>
+
+        <!-- Right side: Menu + Cart -->
+        <div class="flex items-center space-x-8">
+          <!-- Center Menu (hidden on mobile) -->
+          <ul
+            class="hidden md:flex space-x-6 text-sm font-medium text-gray-500"
+          >
+            <li><a href="#" class="text-black font-semibold">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+
+          <!-- Cart -->
+          <div class="flex  items-center space-x-2 text-sm">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart ($56)</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar section is end -->
+  </body>
+</html>
